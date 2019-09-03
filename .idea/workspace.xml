@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="827cd78f-b6b5-42cd-b2cc-51fbebfe15f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20190829/Example_01/logging/log.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day20190829/Example_01/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day20190829/Example_01/logging/log.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
+            <state relative-caret-position="765">
               <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
               <folding>
                 <element signature="e#17#40#0" expanded="true" />
@@ -27,13 +26,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day20190829/Example_01/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="221">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day20190903/Example_01/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
-                <element signature="e#14#68#0" expanded="true" />
+                <element signature="e#14#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,10 +81,12 @@
         <option value="$PROJECT_DIR$/Day20190826/Example_01/main.go" />
         <option value="$PROJECT_DIR$/Day20190829/Example_01/main.go" />
         <option value="$PROJECT_DIR$/Day20190829/Example_01/logging/log.go" />
+        <option value="$PROJECT_DIR$/Day20190903/Example_01/mian.go" />
+        <option value="$PROJECT_DIR$/Day20190903/Example_01/main.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -96,20 +106,13 @@
             <path>
               <item name="NYH" type="b2602c69:ProjectViewProjectNode" />
               <item name="NYH" type="462c0819:PsiDirectoryNode" />
-              <item name="Day20190829" type="462c0819:PsiDirectoryNode" />
+              <item name="Day20190903" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NYH" type="b2602c69:ProjectViewProjectNode" />
               <item name="NYH" type="462c0819:PsiDirectoryNode" />
-              <item name="Day20190829" type="462c0819:PsiDirectoryNode" />
+              <item name="Day20190903" type="462c0819:PsiDirectoryNode" />
               <item name="Example_01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NYH" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NYH" type="462c0819:PsiDirectoryNode" />
-              <item name="Day20190829" type="462c0819:PsiDirectoryNode" />
-              <item name="Example_01" type="462c0819:PsiDirectoryNode" />
-              <item name="logging" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NYH" type="b2602c69:ProjectViewProjectNode" />
@@ -220,10 +223,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1682641" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -236,7 +238,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.35148516" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35148516" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -433,7 +435,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day20190829/Example_01/logging/log.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
+        <state relative-caret-position="765">
           <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
           <folding>
             <element signature="e#17#40#0" expanded="true" />
@@ -443,10 +445,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day20190829/Example_01/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="221">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day20190903/Example_01/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
-            <element signature="e#14#68#0" expanded="true" />
+            <element signature="e#14#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -10,6 +10,7 @@ require (
 	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/spf13/viper v1.4.0 // indirect
 	github.com/zbindenren/logrus_mail v0.0.0-20170904205430-14351100bf70 // indirect
+	golang.org/x/crypto v0.0.0-20190829043050-9756ffdc2472 // indirect
 	golang.org/x/net v0.0.0-20190813141303-74dc4d7220e7 // indirect
 	golang.org/x/text v0.3.2 // indirect
 )
